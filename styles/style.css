@@ -34,9 +34,17 @@ body {
 }
 
 
+.nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start ; /* Centraliza o conteúdo */
+}
+
 .icone-svg {
     width: 16px;
     height: 16px;
+    margin-right: 8px; /* Espaçamento entre o ícone e o texto */
+
 }
 
 .container {
