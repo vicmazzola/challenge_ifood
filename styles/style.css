@@ -14,8 +14,11 @@ input {
   font-family: "Poppins", sans-serif;
 }
 
-
-
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
 
 .sidebar {
@@ -36,6 +39,7 @@ input {
   width: 100%;
   background-color: #fff;
   min-height: 100vh;
+  max-width: 100%;
   overflow: hidden;
 }
 
