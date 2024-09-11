@@ -47,6 +47,13 @@ body {
 
 }
 
+.icone-img {
+    width: 24px; /* Ajuste o tamanho conforme necessário */
+    height: 24px;
+}
+
+
+
 .container {
   position: relative;
   width: 100%;

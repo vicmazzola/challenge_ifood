@@ -14,57 +14,72 @@
 
 <body>
     <div class="main-container d-flex">
-        <header class="sidebar">
-            <div class="d-flex flex-column flex-shrink-0 p-3">
-                <a href="./login.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-black text-decoration-none">
-                    <img src="/challenge_ifood/assets/favicon-32x32.png" alt="iFood logo" width="32" height="32" class="me-2">
-                    <span class="fs-4">iFood</span>
-                </a>
-                <hr>
-                <nav>
-                    <ul class="nav nav-pills flex-column mb-auto">
-                        <li class="nav-item">
-                            <a href="./home.html" class="nav-link text-black" aria-current="page">Home</a>
-                        </li>
-                        <li>
-                            <a href="./consultarsaldo.html" class="nav-link text-black">Consultar Saldo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./gestaopagamentos.html" class="nav-link text-black active">Gestão de Pagamentos</a>
-                        </li>
-                        <li>
-                            <a href="./relatorios.html" class="nav-link text-black">Relatórios e Análises</a>
-                        </li>
-                        <li>
-                            <a href="./seguranca.html" class="nav-link text-black">Segurança</a>
-                        </li>
-                        <li>
-                            <a href="./gestaodocumentos.html" class="nav-link text-black">Gestão de Documentos</a>
-                        </li>
-                        <li>
-                            <a href="./configuracoes.html" class="nav-link text-black">Configurações</a>
-                        </li>
-                    </ul>
-                </nav>
-                <hr>
-                <div class="dropdown">
-                    <a href="#" class="d-flex align-items-center text-black text-decoration-none dropdown-toggle"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
-                        <strong>Gerente</strong>
+        <header>
+        <div class="d-flex flex-column flex-shrink-0 p-3 sidebar">
+            <a href="./login.html"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-black text-decoration-none start-sidebar">
+                <img src="./assets/favicon-32x32.png" alt="iFood logo" width="32" height="32" class="me-2"> <!-- Imagem adicionada -->
+                <span class="fs-4">iFood</span>
+            </a>
+            <hr>
+            <ul class="nav nav-pills flex-column mb-auto ">
+                <li class="nav-item">
+                    <a href="./home.html" class="nav-link text-black" aria-current="page">
+                        <img src="./assets/home24x24.png" alt="Ícone Home" class="icone-img me-2">
+                        Home
                     </a>
-                    <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-                        <li><a class="dropdown-item" href="#">NOME RESTAURANTE</a></li>
-                        <li><a class="dropdown-item" href="./configuracoes.html">Configurações</a></li>
-                        <li><a class="dropdown-item" href="#">Perfil</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="./login.html">Sair</a></li>
-                    </ul>
-                </div>
+                </li>
+                <li>
+                    <a href="./consultarsaldo.html" class="nav-link text-black">
+                        <img src="./assets/wallet24x24.png" alt="Ícone Home" class="icone-img me-2">
+                        Consultar Saldo
+                    </a>
+                </li>
+                <li>
+                    <a href="./gestaopagamentos.html" class="nav-link active">
+                        <img src="./assets/credit-card24x24.png" alt="Ícone Home" class="icone-img me-2">
+                        Gestão de Pagamentos
+                    </a>
+                </li>
+                <li>
+                    <a href="./relatorios.html" class="nav-link text-black">
+                        <img src="./assets/report24x24.png" alt="Ícone Home" class="icone-img me-2">
+                        Relatórios e Análises
+                    </a>
+                </li>
+                <li>
+                    <a href="./seguranca.html" class="nav-link text-black">
+                        <img src="./assets/security24x24.png" alt="Ícone Home" class="icone-img me-2">                        
+                        Segurança
+                    </a>
+                </li>
+                <li>
+                    <a href="./configuracoes.html" class="nav-link text-black">
+                        <img src="./assets/settings24x24.png" alt="Ícone Home" class="icone-img me-2">                        
+                        Configurações
+                    </a>
+                </li>
+            </ul>
+            <hr>
+            <div class="dropdown">
+                <a href="#" class="d-flex align-items-center text-black text-decoration-none dropdown-toggle"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+                    <strong>Gerente</strong>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                    <li><a class="dropdown-item" href="#">NOME RESTAURANTE</a></li>
+                    <li><a class="dropdown-item" href="./configuracoes.html">Configurações</a></li>
+                    <li><a class="dropdown-item" href="#">Perfil</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="./login.html">Sair</a></li>
+                </ul>
             </div>
-        </header>
+        </div>
+
+    </header>
 <!-- ------------------------------------------ Começou o código ------------------------------------------ -->
         <div class="content flex-grow-1 p-3">
             <div class="restaurant-info">
