@@ -176,6 +176,8 @@ form.sign-in-form {
   border-color: #EA1D2C;
 }
 
+
+
 .btn {
   width: 150px;
   background-color: #EA1D2C;
@@ -477,20 +479,13 @@ form.sign-in-form {
 
 .card-details .card-number {
   font-weight: bold;
-}
+}  
 
 .card-details .card-value {
   font-size: 18px;
   font-weight: bold;
-}
+}  
 
-
-.restaurant-info h1 {
-  font-size: 24px;
-  color: var(--primary-color);
-  margin-bottom: 20px;
-  flex: 1;
-}
 /* Estilo do card que envolve o conteúdo */
 .content .card {
   background-color: var(--card-background);
@@ -499,6 +494,61 @@ form.sign-in-form {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
+
+
+/* Card da home apenas */
+
+
+.card-home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+}  
+
+
+.card-home {
+  flex: 1;
+  min-width: 300px; 
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  box-sizing: border-box;
+}  
+
+.table-home-responsive {
+  overflow-x: auto;
+}  
+
+.table-home {
+  width: 100%;
+  border-collapse: collapse;
+}  
+
+.table-home th, .table-home td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}  
+
+.table-home th {
+  background-color: #f4f4f4;
+}  
+
+
+
+
+
+.restaurant-info h1 {
+  font-size: 24px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  flex: 1;
+}  
+
+/* search bar gestão pagamentos */
+
 .search-bar {
   display: flex;
   justify-content: flex-end;
@@ -521,6 +571,21 @@ form.sign-in-form {
   border-radius: 5px;
   cursor: pointer;
 }
+
+/* search bar menu superior */
+
+.search-bar-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px; 
+  margin-top: 50px;
+  z-index: 1000; 
+}
+
 
 /* Container para a tabela, permitindo rolagem horizontal em dispositivos pequenos */
 .table-container {
