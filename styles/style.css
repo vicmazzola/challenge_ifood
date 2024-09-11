@@ -496,15 +496,12 @@ form.sign-in-form {
 }
 
 
-/* Card da home apenas */
-
-
+/* Container para os cards da home */
 .card-home-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   gap: 20px; 
 }  
-
 
 .card-home {
   flex: 1;
@@ -517,26 +514,49 @@ form.sign-in-form {
   box-sizing: border-box;
 }  
 
+
 .table-home-responsive {
-  overflow-x: auto;
+  overflow-x: auto; 
 }  
 
 .table-home {
-  width: 100%;
-  border-collapse: collapse;
+  width: 100%; 
+  border-collapse: collapse; 
 }  
 
 .table-home th, .table-home td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
+  border: 1px solid #ddd; 
+  padding: 8px; 
+  text-align: left; 
 }  
 
 .table-home th {
-  background-color: #f4f4f4;
-}  
+  background-color: #f4f4f4; 
+}
 
 
+.status {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  text-transform: capitalize;
+}
+
+.status.completed {
+  background-color: #d4edda; 
+  color: #155724; /
+}
+
+.status.pending {
+  background-color: #fff3cd; 
+  color: #856404; 
+}
+
+.status.canceled {
+  background-color: #f8d7da; 
+  color: #721c24; 
+}
 
 
 
