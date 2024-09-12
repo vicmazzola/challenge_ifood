@@ -444,6 +444,63 @@ form.sign-in-form {
     left: 50%;
   }
 }
+
+/*------------------------------------------ Home ------------------------------------------*/
+
+/* Container para os cards da home */
+.card-home-container {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+}  
+
+.card-home {
+  flex: 1;
+  min-width: 300px; 
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  box-sizing: border-box;
+}  
+
+
+.table-home-responsive {
+  overflow-x: auto; 
+}  
+
+.table-home {
+  width: 100%; 
+  border-collapse: collapse; 
+}  
+
+.table-home th, .table-home td {
+  border: 1px solid #ddd; 
+  padding: 8px; 
+  text-align: left; 
+}  
+
+.table-home th {
+  background-color: #f4f4f4; 
+}
+
+/* search bar menu superior */
+
+.search-bar-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px; 
+  margin-top: 50px;
+  z-index: 1000; 
+}
+
+
+
 /*------------------------------------------ Gestao de pagamentos ------------------------------------------*/
 :root {
   --primary-color: #070707;
@@ -496,43 +553,7 @@ form.sign-in-form {
 }
 
 
-/* Container para os cards da home */
-.card-home-container {
-  display: flex;
-  flex-direction: column; 
-  gap: 20px; 
-}  
 
-.card-home {
-  flex: 1;
-  min-width: 300px; 
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 16px;
-  box-sizing: border-box;
-}  
-
-
-.table-home-responsive {
-  overflow-x: auto; 
-}  
-
-.table-home {
-  width: 100%; 
-  border-collapse: collapse; 
-}  
-
-.table-home th, .table-home td {
-  border: 1px solid #ddd; 
-  padding: 8px; 
-  text-align: left; 
-}  
-
-.table-home th {
-  background-color: #f4f4f4; 
-}
 
 
 .status {
@@ -590,20 +611,6 @@ form.sign-in-form {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
-
-/* search bar menu superior */
-
-.search-bar-menu {
-  position: fixed;
-  top: 0;
-  right: 0;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 5px; 
-  margin-top: 50px;
-  z-index: 1000; 
 }
 
 
