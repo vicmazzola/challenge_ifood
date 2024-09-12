@@ -47,6 +47,13 @@ body {
 
 }
 
+.icone-img {
+    width: 24px; /* Ajuste o tamanho conforme necessário */
+    height: 24px;
+}
+
+
+
 .container {
   position: relative;
   width: 100%;
@@ -168,6 +175,8 @@ form.sign-in-form {
   color: #EA1D2C;
   border-color: #EA1D2C;
 }
+
+
 
 .btn {
   width: 150px;
@@ -435,3 +444,220 @@ form.sign-in-form {
     left: 50%;
   }
 }
+
+/*------------------------------------------ Cards home que foi usado para outros ------------------------------------------*/
+
+/* Container para os cards da home */
+.card-home-container {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+}  
+
+.card-home {
+  flex: 1;
+  min-width: 300px; 
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  box-sizing: border-box;
+}  
+
+
+.table-home-responsive {
+  overflow-x: auto; 
+}  
+
+.table-home {
+  width: 100%; 
+  border-collapse: collapse; 
+}  
+
+.table-home th, .table-home td {
+  border: 1px solid #ddd; 
+  padding: 8px; 
+  text-align: left; 
+}  
+
+.table-home th {
+  background-color: #f4f4f4; 
+}
+
+/* search bar menu superior */
+
+.search-bar-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px; 
+  margin-top: 50px;
+  z-index: 1000; 
+}
+
+
+
+/*------------------------------------------ Gestao de pagamentos ------------------------------------------*/
+:root {
+  --primary-color: #070707;
+  --secondary-color: #aaaaaa;
+  --card-background: rgb(230, 229, 229);
+  --table-header-bg: #f8f9fa;
+  --table-row-bg: #f2f2f2;
+}
+.restaurant-info{
+  flex: 1;
+   padding: 20px;
+}
+.dropdown a {
+  margin-top: 20px; /* Ajuste o valor conforme necessário */
+}
+.sidebar .dropdown {
+  margin-top: 220px; /* Ajuste o valor para descer mais ou menos */
+}
+
+.card-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.card-container img {
+  width: 50px;
+}
+
+.card-details {
+  margin-left: 10px;
+}
+
+.card-details .card-number {
+  font-weight: bold;
+}  
+
+.card-details .card-value {
+  font-size: 18px;
+  font-weight: bold;
+}  
+
+/* Estilo do card que envolve o conteúdo */
+.content .card {
+  background-color: var(--card-background);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.status {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  text-transform: capitalize;
+}
+
+.status.completed {
+  background-color: #d4edda; 
+  color: #155724; /
+}
+
+.status.pending {
+  background-color: #fff3cd; 
+  color: #856404; 
+}
+
+.status.canceled {
+  background-color: #f8d7da; 
+  color: #721c24; 
+}
+
+
+
+.restaurant-info h1 {
+  font-size: 24px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  flex: 1;
+}  
+
+/* search bar gestão pagamentos */
+
+.search-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 8px;
+  margin-left: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* Container para a tabela, permitindo rolagem horizontal em dispositivos pequenos */
+.table-container {
+  overflow-x: auto; /* Permite rolagem horizontal em dispositivos pequenos */
+}
+
+/* Estilização da tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Estilo para células e cabeçalhos da tabela */
+table th, table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+/* Cor de fundo para o cabeçalho da tabela */
+table th {
+  background-color: var(--table-header-bg);
+}
+
+/* Cores alternadas para as linhas */
+table tr:nth-child(even) {
+  background-color: var(--table-row-bg);
+}
+
+/* Estilo para o cabeçalho fixo em grandes resoluções */
+@media (max-width: 767px) {
+  .content {
+    margin-left: 0;
+    padding: 10px;
+  }
+}
+
+
+/* Ajustes de padding e margens para dispositivos pequenos */
+@media (min-width: 768px) {
+  .content {
+    margin-left: 0; /* Remova a margem esquerda no layout maior */
+    padding: 20px;
+  }
+}
+/*------------------------------------------ Fim Gestao de pagamentos ------------------------------------------*/
+

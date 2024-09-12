@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,97 +14,186 @@
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
 </head>
 
-<link rel="stylesheet" href="./styles/style.css">
+
 </head>
 
 <body>
-    <header>
-        <div class="d-flex flex-column flex-shrink-0 p-3 sidebar">
-            <a href="./login.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-black text-decoration-none">
-                <svg class="bi pe-none me-2" width="40" height="32">
-                    <use xlink:href="#bootstrap" />
-                </svg>
-                <span class="fs-4">iFood</span>
-            </a>
-            <hr>
-            <ul class="nav nav-pills flex-column mb-auto">
-                <li class="nav-item">
-                    <a href="./home.html" class="nav-link text-black" aria-current="page">
-                        <svg class="bi pe-none me-2 icone-svg">
-                            <use xlink:href="#home" />
-                        </svg>
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="./consultarsaldo.html" class="nav-link text-black">
-                        <svg class="bi pe-none me-2 icone-svg">
-                            <use xlink:href="#speedometer2" />
-                        </svg>
-                        Consultar Saldo
-                    </a>
-                </li>
-                <li>
-                    <a href="./gestaopagamentos.html" class="nav-link text-black">
-                        <svg class="bi pe-none me-2 icone-svg">
-                            <use xlink:href="#table" />
-                        </svg>
-                        Gestão de Pagamentos
-                    </a>
-                </li>
-                <li>
-                    <a href="./relatorios.html" class="nav-link text-black">
-                        <svg class="bi pe-none me-2 icone-svg">
-                            <use xlink:href="#grid" />
-                        </svg>
-                        Relatórios e Análises
-                    </a>
-                </li>
-                <li>
-                    <a href="./seguranca.html" class="nav-link active">
-                        <svg class="bi pe-none me-2 icone-svg">
-                            <use xlink:href="#people-circle" />
-                        </svg>
-                        Segurança
-                    </a>
-                </li>
-                <li>
-                    <a href="./gestaodocumentos.html" class="nav-link text-black">
-                        <svg class="bi pe-none me-2 icone-svg">
-                            <use xlink:href="#people-circle" />
-                        </svg>
-                        Gestão de Documentos
-                    </a>
-                </li>
-                <li>
-                    <a href="./configuracoes.html" class="nav-link text-black">
-                        <svg class="bi pe-none me-2 icone-svg">
-                            <use xlink:href="#people-circle" />
-                        </svg>
-                        Configurações
-                    </a>
-                </li>
-            </ul>
-            <hr>
-            <div class="dropdown">
-                <a href="#" class="d-flex align-items-center text-black text-decoration-none dropdown-toggle"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
-                    <strong>Gerente</strong>
+    <!---------------------------- Start Sidebar --------------------------------->
+    <div class="main-container d-flex">
+        <header>
+            <div class="d-flex flex-column flex-shrink-0 p-3 sidebar">
+                <a href="./login.html"
+                    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-black text-decoration-none start-sidebar">
+                    <img src="./assets/favicon-32x32.png" alt="iFood logo" width="32" height="32" class="me-2">
+                    <!-- Imagem adicionada -->
+                    <span class="fs-4">iFood</span>
                 </a>
-                <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-                    <li><a class="dropdown-item" href="#">NOME RESTAURANTE</a></li>
-                    <li><a class="dropdown-item" href="#">Configurações</a></li>
-                    <li><a class="dropdown-item" href="#">Perfil</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
+                <hr>
+                <ul class="nav nav-pills flex-column mb-auto ">
+                    <li class="nav-item">
+                        <a href="./home.html" class="nav-link text-black aria-current="page">
+                            <img src="./assets/home24x24.png" alt="Ícone Home" class="icone-img me-2">
+                            Home
+                        </a>
                     </li>
-                    <li><a class="dropdown-item" href="./login.html">Sair</a></li>
+                    <li>
+                        <a href="./consultarsaldo.html" class="nav-link text-black">
+                            <img src="./assets/wallet24x24.png" alt="Ícone Home" class="icone-img me-2">
+                            Consultar Saldo
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./gestaopagamentos.html" class="nav-link text-black">
+                            <img src="./assets/credit-card24x24.png" alt="Ícone Home" class="icone-img me-2">
+                            Gestão de Pagamentos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./relatorios.html" class="nav-link text-black">
+                            <img src="./assets/report24x24.png" alt="Ícone Home" class="icone-img me-2">
+                            Relatórios e Análises
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./seguranca.html" class="nav-link active">
+                            <img src="./assets/security24x24.png" alt="Ícone Home" class="icone-img me-2">
+                            Segurança
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./configuracoes.html" class="nav-link text-black">
+                            <img src="./assets/settings24x24.png" alt="Ícone Home" class="icone-img me-2">
+                            Configurações
+                        </a>
+                    </li>
                 </ul>
+                <hr>
+                <div class="dropdown">
+                    <a href="#" class="d-flex align-items-center text-black text-decoration-none dropdown-toggle"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+                        <strong>Gerente</strong>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                        <li><a class="dropdown-item" href="#">NOME RESTAURANTE</a></li>
+                        <li><a class="dropdown-item" href="./configuracoes.html">Configurações</a></li>
+                        <li><a class="dropdown-item" href="#">Perfil</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="./login.html">Sair</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
 
-    </header>
+
+
+        </header>
+
+        <!---------------------------- End Sidebar --------------------------------->
+
+
+        <!-- ------------------------------------------ Começou o código ------------------------------------------ -->
+        <div class="content flex-grow-1 p-3">
+            <div class="restaurant-info">
+                <h1>Array de Sabores</h1>
+                <p>Av 9 de Julho 2079, Centro, Jundiaí - SP</p>
+            </div>
+            <div class="search-bar-menu">
+                <div class="search-bar">
+                    <input type="text" placeholder="Buscar">
+                    <button>Buscar</button>
+                </div>
+            </div>
+            <div class="card-container">
+                <img src="data:image/png;base64,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"
+                    alt="Visa Card">
+                <div class="card-details">
+                    <span class="card-number">Visa 9010</span>
+                    <span class="card-value">R$ 17.850</span>
+                </div>
+
+            </div>
+
+            <div class="card-home-container">
+                
+
+                <div class="card-home">
+                    <h3>COLOCAR INFORMAÇÃO</h3>
+                    <div class="table-home-responsive">
+                      <table class="table-home">
+                        <thead>
+                          <tr>
+                            <th>PREENCHER</th>
+                            <th>PREENCHER</th>
+                            <th>PREENCHER</th>
+                            <th>PREENCHER</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>#PREENCHER</td>
+                            <td>PREENCHER</td>
+                            <td>PREENCHER</td>
+                            <td><span class="status completed">PREENCHER</span></td>
+                          </tr>
+                          <tr>
+                            <td>#PREENCHER</td>
+                            <td>PREENCHER</td>
+                            <td>PREENCHER</td>
+                            <td><span class="status completed">PREENCHER</span></td>
+                          </tr>
+                          <tr>
+                            <td>#PREENCHER</td>
+                            <td>PREENCHER</td>
+                            <td>PREENCHER</td>
+                            <td><span class="status completed">PREENCHER</span></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                
+                  <div class="card-home">
+                    <h3>COLOCAR INFORMAÇÃO</h3>
+                    <div class="table-home-responsive">
+                        <table class="table-home">
+                            <thead>
+                                <tr>
+                                    <th>PREENCHER</th>
+                                    <th>PREENCHER</th>
+                                    <th>PREENCHER</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>#PREENCHER</td>
+                                    <td>PREENCHER</td>
+                                    <td><span class="status completed">PREENCHER</span></td>
+                                  </tr>
+                                <tr>
+                                    <td>#PREENCHER</td>
+                                    <td>PREENCHER</td>
+                                    <td><span class="status completed">PREENCHER</span></td>
+                                </tr>
+                                <tr>
+                                    <td>#PREENCHER</td>
+                                    <td>PREENCHER</td>
+                                    <td><span class="status completed">PREENCHER</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+        </div>
+    </div>
+    </div>
+    <!-- ------------------------------------------ Terminou o código ------------------------------------------ -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
