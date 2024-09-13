@@ -24,6 +24,13 @@ body {
   font-size: 18px;
 }
 
+.custom-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%; 
+}
+
 .sidebar {
     width: 280px;
     height: 100vh;
