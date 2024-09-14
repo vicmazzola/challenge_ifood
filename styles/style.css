@@ -514,6 +514,7 @@ form.sign-in-form {
   align-items: center;
   padding: 5px; 
   margin-top: 50px;
+  margin-right: 25px;
   z-index: 1000; 
 }
 
