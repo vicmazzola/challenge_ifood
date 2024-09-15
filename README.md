@@ -10,3 +10,7 @@ This project is part of my Associate Degree in Systems Analysis and Development 
 <br>
 <b>You can check out the website here:</b><br>
 https://challengeifood-rosy.vercel.app
+
+
+![image](https://github.com/user-attachments/assets/ff4ed9e7-2291-433b-91c8-526ea120106a)
+![Captura de tela 2024-09-15 123258](https://github.com/user-attachments/assets/e595c2d1-ff84-498c-81a0-bdaa9a83b452)
