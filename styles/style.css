@@ -680,3 +680,30 @@ table tr:nth-child(even) {
 }
 /*------------------------------------------ Fim Gestao de pagamentos ------------------------------------------*/
 
+
+/*------------------------------------------ Segurança ------------------------------------------*/
+
+
+.principal {
+  padding: 10%;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  text-align: left;
+  background-color: rgb(249, 249, 250);
+  border: 1px;
+  margin-top: -100px;
+}
+
+/* Links */
+.link-seguranca {
+  text-decoration: none; 
+  color: inherit; 
+  margin-bottom: 15px; /* Espaço entre os links */
+  display: inline-block; /* Para permitir margin em elementos inline */
+}
+
+/* Estilo para o estado hover da classe 'link-seguranca' */
+.link-seguranca:hover {
+  color: #0d6efd; /* Muda a cor para azul quando em hover */
+}
