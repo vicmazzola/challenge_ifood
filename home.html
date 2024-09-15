@@ -23,10 +23,10 @@
         <header>
             <div class="d-flex flex-column flex-shrink-0 p-3 sidebar">
                 <a href="./login.html"
-                    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-black text-decoration-none start-sidebar">
+                    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-black text-decoration-none start-sidebar custom-center">
                     <img src="./assets/favicon-32x32.png" alt="iFood logo" width="32" height="32" class="me-2">
                     <!-- Imagem adicionada -->
-                    <span class="fs-4">iFood</span>
+                    <span class="fs-3">iFood</span>
                 </a>
                 <hr>
                 <ul class="nav nav-pills flex-column mb-auto ">
@@ -36,33 +36,31 @@
                             Home
                         </a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a href="./consultarsaldo.html" class="nav-link text-black">
-
-
                             <img src="./assets/wallet24x24.png" alt="Ícone Home" class="icone-img me-2">
                             Consultar Saldo
                         </a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a href="./gestaopagamentos.html" class="nav-link text-black">
                             <img src="./assets/credit-card24x24.png" alt="Ícone Home" class="icone-img me-2">
                             Gestão de Pagamentos
                         </a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a href="./relatorios.html" class="nav-link text-black">
                             <img src="./assets/report24x24.png" alt="Ícone Home" class="icone-img me-2">
                             Relatórios e Análises
                         </a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a href="./seguranca.html" class="nav-link text-black">
                             <img src="./assets/security24x24.png" alt="Ícone Home" class="icone-img me-2">
                             Segurança
                         </a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a href="./configuracoes.html" class="nav-link text-black">
                             <img src="./assets/settings24x24.png" alt="Ícone Home" class="icone-img me-2">
                             Configurações
@@ -97,8 +95,8 @@
 
         <!-- ------------------------------------------ Começou o código ------------------------------------------ -->
         <div class="content flex-grow-1 p-3">
-            <div class="restaurant-info">
-                <h1>Array de Sabores</h1>
+            <div class="restaurant-info title-address">
+                <h1 style="font-size: 25px;">Array de Sabores</h1>
                 <p>Av 9 de Julho 2079, Centro, Jundiaí - SP</p>
             </div>
             <div class="search-bar-menu">
@@ -118,45 +116,45 @@
             </div>
 
             <div class="card-home-container">
-                
+
 
                 <div class="card-home">
                     <h4>Resumo dos Pedidos</h4>
                     <div class="table-home-responsive">
-                      <table class="table-home">
-                        <thead>
-                          <tr>
-                            <th>Nº do Pedido</th>
-                            <th>Hora</th>
-                            <th>Preço</th>
-                            <th>Status</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>#4577</td>
-                            <td>8:44 PM</td>
-                            <td>R$203,50</td>
-                            <td><span class="status completed">Concluído</span></td>
-                          </tr>
-                          <tr>
-                            <td>#4576</td>
-                            <td>7:30 PM</td>
-                            <td>R$251,68</td>
-                            <td><span class="status pending">Pendente</span></td>
-                          </tr>
-                          <tr>
-                            <td>#4575</td>
-                            <td>6:15 PM</td>
-                            <td>R$153,50</td>
-                            <td><span class="status canceled">Cancelado</span></td>
-                          </tr>
-                        </tbody>
-                      </table>
+                        <table class="table-home">
+                            <thead>
+                                <tr>
+                                    <th>Nº do Pedido</th>
+                                    <th>Hora</th>
+                                    <th>Preço</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>#4577</td>
+                                    <td>8:44 PM</td>
+                                    <td>R$203,50</td>
+                                    <td><span class="status completed">Concluído</span></td>
+                                </tr>
+                                <tr>
+                                    <td>#4576</td>
+                                    <td>7:30 PM</td>
+                                    <td>R$251,68</td>
+                                    <td><span class="status pending">Pendente</span></td>
+                                </tr>
+                                <tr>
+                                    <td>#4575</td>
+                                    <td>6:15 PM</td>
+                                    <td>R$153,50</td>
+                                    <td><span class="status canceled">Cancelado</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                  </div>
-                
-                  <div class="card-home">
+                </div>
+
+                <div class="card-home">
                     <h4>Atividades Recentes</h4>
                     <div class="table-home-responsive">
                         <table class="table-home">
@@ -187,11 +185,12 @@
                         </table>
                     </div>
                 </div>
-                
-                
+
+
             </div>
-            
+
         </div>
+        
     </div>
     </div>
     <!-- ------------------------------------------ Terminou o código ------------------------------------------ -->
