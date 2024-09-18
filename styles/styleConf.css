@@ -703,11 +703,10 @@ table tr:nth-child(even) {
 
 
 @media (max-width: 768px) {
-  html {
-    overflow-y: hidden;
-  }
+
   body {
-    overflow-y: hidden;
+    overflow: hidden; /* remove scroll horizontal e vertical */
+    overflow-y: auto; /* permite scroll vertical */
   }
 
   header {
@@ -717,9 +716,5 @@ table tr:nth-child(even) {
   .search-bar {
     display: none;
 
-  
-
-
-  
 }
 }

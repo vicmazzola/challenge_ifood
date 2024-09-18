@@ -31,3 +31,19 @@ loginForm.addEventListener("submit", (event) => {
   event.preventDefault(); // Evita o comportamento padrão de envio do formulário
   window.location.href = "home.html"; // Redireciona para home.html
 });
+
+//_________________________
+// Get the sidebar element
+var sidebar = document.getElementById("sidebar");
+
+// Add an event listener to the window resize event
+window.addEventListener("resize", function() {
+  // Check if the window width is less than or equal to 768px
+  if (window.innerWidth <= 768) {
+    // Hide the sidebar
+    sidebar.style.display = "none";
+  } else {
+    // Show the sidebar
+    sidebar.style.display = "block";
+  }
+});
