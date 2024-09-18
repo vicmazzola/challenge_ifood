@@ -209,9 +209,22 @@ form.sign-in-form {
   transition: 0.5s;
 }
 
+#toggleSidebar {
+  position: fixed;
+  left: 5px;
+  top: 0;
+  width: 40px;
+  height: 40px;
+}
+
 .btn:hover {
   background-color: #4d84e2;
 }
+
+#main-content{
+  max-width: 100%;
+}
+
 .panels-container {
   position: absolute;
   height: 100%;

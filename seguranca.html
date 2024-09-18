@@ -15,9 +15,14 @@
 </head>
 
 <body>
+    <!-- ------------------------------------------ Navbar para colapsar a sidebar ------------------------------------------ -->
+    <button class="btn btn-primary d-lg-none" id="toggleSidebar">
+        <i class="fas fa-bars"></i>
+    </button>
+
     <!---------------------------- Start Sidebar --------------------------------->
     <div class="main-container d-flex">
-        <header class="d-flex flex-column flex-shrink-0 p-3 sidebar" id="sidebar">
+        <header class="d-none d-md-flex flex-column flex-shrink-0 p-3 sidebar" id="sidebar">
             <a href="./login.html"
                 class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-black text-decoration-none start-sidebar custom-center">
                 <img src="./assets/favicon-32x32.png" alt="iFood logo" width="32" height="32" class="me-2">
@@ -81,13 +86,10 @@
         </header>
         <!---------------------------- End Sidebar --------------------------------->
 
-        <!-- ------------------------------------------ Navbar para colapsar a sidebar ------------------------------------------ -->
-        <button class="btn btn-primary d-lg-none" id="toggleSidebar">
-            <i class="fas fa-bars"></i>
-        </button>
+        
 
         <!-- ------------------------------------------ Começou o conteúdo ------------------------------------------ -->
-        <div class="content flex-grow-1 p-3">
+        <div id="main-content" class="content flex-grow-1 p-3-md pt-5">
             <div class="restaurant-info title-address">
                 <h1 style="font-size: 25px;">Array de Sabores</h1>
                 <p>Av 9 de Julho 2079, Centro, Jundiaí - SP</p>
@@ -152,12 +154,7 @@
             crossorigin="anonymous"></script>
 
         <!-- Script para alternar a visibilidade da sidebar -->
-        <script>
-            document.getElementById('toggleSidebar').addEventListener('click', function () {
-                const sidebar = document.getElementById('sidebar');
-                sidebar.classList.toggle('d-none');
-            });
-        </script>
+        <script src="./js/menu-toogle.js"></script>
 </body>
 
 </html>
