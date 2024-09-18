@@ -167,6 +167,93 @@
         </div>
     </div>
     </div>
+
+     <!-- Button to toggle the sidebar -->
+
+     <div class="d-flex justify-content-center align-items-start">
+        <button class="btn btn-primary d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar">Menu</button>
+      </div>
+
+    <!-- The sidebar -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebarLabel">
+        <!-- Your sidebar content here -->
+        <div class="offcanvas-header">
+
+            <div class="d-flex flex-column flex-shrink-0 p-3 sidebar">
+                <a href="./login.html"
+                    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-black text-decoration-none start-sidebar custom-center">
+                    <img src="./assets/favicon-32x32.png" alt="iFood logo" width="32" height="32" class="me-2">
+                    <!-- Imagem adicionada -->
+                    <span class="fs-3">iFood</span>
+                </a>
+                <hr>
+                <ul class="nav nav-pills flex-column mb-auto ">
+                    <li class="nav-item">
+                        <a href="./home.html" class="nav-link text-black">
+                            <img src="./assets/home24x24.png" alt="Ícone Home" class="icone-img me-2">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./consultarsaldo.html" class="nav-link text-black">
+
+
+                            <img src="./assets/wallet24x24.png" alt="Ícone Home" class="icone-img me-2">
+                            Consultar Saldo
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./gestaopagamentos.html" class="nav-link text-black">
+                            <img src="./assets/credit-card24x24.png" alt="Ícone Home" class="icone-img me-2">
+                            Gestão de Pagamentos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./relatorios.html" class="nav-link active" aria-current="page">
+                            <img src="./assets/report24x24.png" alt="Ícone Home" class="icone-img me-2">
+                            Relatórios e Análises
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./seguranca.html" class="nav-link text-black">
+                            <img src="./assets/security24x24.png" alt="Ícone Home" class="icone-img me-2">
+                            Segurança
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./configuracoes.html" class="nav-link text-black">
+                            <img src="./assets/settings24x24.png" alt="Ícone Home" class="icone-img me-2">
+                            Configurações
+                        </a>
+                    </li>
+                </ul>
+                <hr>
+                <div class="dropdown">
+                    <a href="#" class="d-flex align-items-center text-black text-decoration-none dropdown-toggle"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+                        <strong>Gerente</strong>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                        <li><a class="dropdown-item" href="#">Array de Sabores</a></li>
+                        <li><a class="dropdown-item" href="./configuracoes.html">Configurações</a></li>
+                        <li><a class="dropdown-item" href="#">Perfil</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="./login.html">Sair</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+       
+    
     <!-- ------------------------------------------ Terminou o código ------------------------------------------ -->
 
 
